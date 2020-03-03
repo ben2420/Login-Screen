@@ -1,0 +1,76 @@
+
+body {
+	background-color: #22313f;
+}
+
+.container {
+	border: 1.5px solid #00e640;
+	margin: 100px auto;
+	text-align: center;
+	width: 360px;
+	height: 200px;
+	border-radius: 25px;
+	font-family: Source Sans Pro;
+}
+
+#name {
+	margin: 30px auto;
+	border: 1.5px solid #00e640;
+	padding: 7px;
+	background-color: #22313f;
+	border-radius: 25px;
+	color: #c8f7c5;
+	text-align: center;
+	font: inherit;
+	font-size: 13px;
+}
+
+#password {
+	border: 1.5px solid #00e640;
+	background-color: #22313f;
+	padding: 7px;
+	border-radius: 25px;
+	color: #c8f7c5;
+	text-align: center;
+	font: inherit;
+	font-size: 13px;
+}
+
+input:focus {
+	outline: none;
+}
+
+button {
+	margin-top: 30px;
+	padding: 7px 14px;
+	background-color: #22313f;	
+	color: #c8f7c5;
+	border: 1.5px solid #00e640;
+	transition: 0.4s;
+	font: inherit;
+	font-size: 13px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #00e640;
+	border-radius: 25px;
+	color: #22313f;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #c8f7c5;
+  text-align: center;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #c8f7c5;
+  text-align: center;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #c8f7c5;
+  text-align: center;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #c8f7c5;
+  text-align: center;
+}
